@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.List;
+
 public class Cup {
     public int dice;
 
@@ -7,7 +9,11 @@ public class Cup {
         this.dice = dice;
     }
 
-    public void roll() {
+    public void roll(List<Die> dieList) {
+
+        for (int i = 0; i < dieList.size(); i++) {
+
+        }
 
     }
 }
